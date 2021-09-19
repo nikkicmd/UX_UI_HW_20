@@ -1,125 +1,205 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Case Study HW 20</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-</head>
-<body>
-
-    <!-- Nav Bar -->
-    <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-
-    <!-- Jumbotron - Intro -->
-
-    <div class="jumbotron">
-      <h1 class="display-4">Hello, world!</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-      <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-      </p>
-    </div>
-
-    <!-- Research Sectiion -->
-
-    <div class="accordion" id="accordionExample">
-      <div class="card">
-        <div class="card-header" id="headingOne">
-          <h2 class="mb-0">
-            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Collapsible Group Item #1
-            </button>
-          </h2>
-        </div>
+  <head>
     
-        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>HW20 Case Study</title>
+  </head>
+  <body>
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+      <a class="navbar-brand" href="https://nikkicmd.github.io/UX_UI_HW_19/">Nicole Douglas</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Skills<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary btn-lg navCTA" href="#" role="button">Download Resume</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End navigation bar -->
+     
+    <!-- Jumbotron -->
+    <div class="jumbotron rockBackground">
+      <div class="jumboCopy">
+        <h1 class="display-4">Elsewhere</h1>
+        <p class="lead">The need for travel is expected to surge after the pandemic is over, therefore, a more refined and user friendly travel planning mobile app is in demand to help reduce the hassle of ticket booking, hotel booking, route mapping and scheduling. This is a travel application, which allows users to schedule their trips conveniently and efficiently, by providing useful information or suggesting itineraries at destinations. Helps the user manage time, attractions, budget and expense during the journey
+        </p>
+      </div>
+    </div>
+    <!-- End jumbotron -->
+
+    <!-- Cards -->
+    <div class="container-fluid content">
+      <h2 class="sectionHeading">Background</h2>
+      <div class="row Research">
+
+        <!-- Card 1 -->
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Problem</h5>
+              <p class="card-text">Users have to jump from 2-3 different apps just to plan out their travel lending them into a confusing process of booking and mistakes unable to make a custom itinerary and have to stick to the ones provided by the agency when it comes to truly having control over ones travel plan and schedule</p>
+            </div>
+          </div>
+        </div>
+        <!-- End card 1 -->
+        
+        <!-- card 2 -->
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Solution</h5>
+              <p class="card-text">Elsewhere will help manage all your trip details in one platform 
+                giving you the freedom to create trips and itineraries to the user's liking. Taking 
+                all the hasele of booking and making it quick and easy to access. <br> <br> <br> <br>
+                </p>
+            </div>
+          </div>
+        </div>
+        <!-- end of card 2 -->
+
+      </div>
+    </div>
+    <!-- End cards -->
+
+    <!-- content -->
+    <div class="container-fluid content">
+      <h2 class="sectionHeading">Research</h2>
+
+    <div class="container-fluid padding">
+    <div class="row padding">
+      <div class="col-lg-6">
+        <h3 class="card-title">Qualitative Research</h3>
+        <p>I interviewed 5 potential users over the 
+          zoom to understand the challenges they face when 
+          travelling. <br> <br>
+          Some of the questions I asked: <br>
+          1. How does a user plan their itinerary on a vacation? <br>
+          2. What platforms are they using to book their travel flights and accommodations? <br>
+          3. What are the pain points a user comes across when booking their vacation? <br>
+          4. What types of users will use this app? <br>
+          5. What influences a user on where to travel <br>
+          6. Are users feeling safe about travelling post pandemic <br>
+          7. Do users enjoy using a travel agency or a online book service <br>
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <img src="images/Screen Shot 2021-09-18 at 19.18.17.png" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid padding">
+    <div class="row padding">
+      <div class="col-lg-6">
+        <h3 class="card-title2">User Insight Statement</h3>
+        <p>Amy is a young professional, with a desire to travel and 
+          elevate her photography portfolio. This summer she is planning 
+          on taking a 3 week European vacation with her boyfriend. She 
+          has a lot of places she would like to see so it’s important 
+          for her to stay organized so that she doesn’t feel overwhelmed 
+          while on vacation. During the research process I discovered 
+          that many users felt overwhelmed with having to organize all 
+          their travel dates, hotel stays, activities and ticket purchases. 
+          It was hard to have everything organized in one place and easily 
+          accessible on day of travel. I believe that people could benefit 
+          from having an app that will help manage all their trip details 
+          in one place so you’ll no longer need to sort through tons of 
+          emails to find that email reservation, or you’ll be able to 
+          determine which days you forgot to book a hotel.          
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid padding">
+    <div class="row padding">
+      <div class="col-lg-6">
+        <h3 class="card-title2">User Persona</h3>
+        <p>The user group is target for the age 
+          group of 18-40 years old. The millennial 
+          generation which loves to explore, travel, 
+          discover and have a community of ties 
+          formed at the end of their trip      
+        </p>
+        <div class="col-lg-6">
+          <img src="images/User-Persona-Template-1.png" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Cards -->
+  <div class="container-fluid content">
+    <h2 class="sectionHeading">Prototype</h2>
+    <div class="row Research">
+
+      <!-- Card 1 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img src="images/iPhone SE - 3.png" class="card-img-top" alt="...">
           <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            <h5 class="card-title">Low-Fi Prototype</h5>
+            <p class="card-text">Users have to jump from 2-3 different apps just to plan out their travel lending them into a confusing process of booking and mistakes unable to make a custom itinerary and have to stick to the ones provided by the agency when it comes to truly having control over ones travel plan and schedule</p>
           </div>
         </div>
       </div>
-      <div class="card">
-        <div class="card-header" id="headingTwo">
-          <h2 class="mb-0">
-            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Collapsible Group Item #2
-            </button>
-          </h2>
-        </div>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <!-- End card 1 -->
+      
+      <!-- card 2 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img src="images/hi-fi.png" class="card-img-top" alt="...">
           <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            <h5 class="card-title">Hi-Fi Prototype</h5>
+            <p class="card-text">Elsewhere will help manage all your trip details in one platform 
+              giving you the freedom to create trips and itineraries to the user's liking. Taking 
+              all the hasele of booking and making it quick and easy to access. <br> <br> <br> <br>
+              </p>
           </div>
         </div>
       </div>
-      <div class="card">
-        <div class="card-header" id="headingThree">
-          <h2 class="mb-0">
-            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Collapsible Group Item #3
-            </button>
-          </h2>
-        </div>
-        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-          <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Jumbotron Problem statement -->
-
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Fluid jumbotron</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-      </div>
-    </div>
-
-    <!-- Iteration Section -->
-    <div class="media">
-      <div class="media-body">
-        <h5 class="mt-0 mb-1">Media object</h5>
-        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-      </div>
-      <img src="..." class="ml-3" alt="...">
-    </div>
-
-    <!-- Prototype -->
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">
-          One of three columns
-        </div>
-        <div class="col-sm">
-          One of three columns
-        </div>
-        <div class="col-sm">
-          One of three columns
-        </div>
-      </div>
-    </div>
+      <!-- end of card 2 -->
+  
 
 
-    
-</body>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+  </body>
+
 </html>
